@@ -1,0 +1,111 @@
+html {
+    background-color:#eef3f7;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #297aaf;
+}
+
+/*Page Header*/
+
+.logo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+header {
+    text-align: center;
+    color:#025b95;
+}
+
+header h1 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+header p {
+    margin-top: 2px;
+    margin-bottom: 21.44px;
+}
+
+/*End of Page Header*/
+
+/*Site Navagation*/
+
+.sitenav {    
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.sitenav a {
+    color:#025b95;
+    background-color: #b7d6e7;
+    text-decoration: none;
+    padding: 20px;
+    margin-top:30px;
+    margin-left: 0px;
+    border:2px solid #b7d6e7;
+    border-radius: 10px;
+
+}
+
+.sitenav a:hover {
+    color: #FFF;
+    background-color: #cfe8f5;
+}
+
+.sitenav li {
+    text-align: left;
+    list-style: none;
+    color: #FFF;
+    display: inline;
+    padding:10px;
+}
+
+.sitenav ul {
+    padding: 0%
+}
+/*End Site Navagation*/
+
+
+/*Body design*/
+
+.paintingex img {
+    max-width: 70%;
+    max-height: 20%;
+    margin:20px 0px;
+    border-radius: 40px;
+}
+
+.about ul {
+    padding: 0%;
+    list-style: none;
+}
+
+.about {
+    background-color: #b7d6e7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0% 10%;
+}
+
+/*Footer design*/
+
+.socials a {
+    text-decoration: none;
+    color: #297aaf;
+}
+
+.socials a:hover {
+    color: #FFF;
+}
+
+footer p {
+    font-size: x-small;
+    color: rgb(162, 195, 218);
+}
+
+/*End of Body Design*/

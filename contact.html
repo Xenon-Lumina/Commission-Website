@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utc-8">
+        <title>Commission Form</title>
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+
+    <body>
+
+        <header>
+            <!--TODO: Make an actual logo for this-->
+            <div class="logo">
+                <img src="images/LOGO YUS.png">
+            </div>
+            <h1>Xenon Amaki Art</h1>
+            <p>smol slogan or smth yaya</p>         
+        <div class="sitenav"><!--sitenav start-->
+            <nav>
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div><!--sitenav end-->
+    </header>
+
+        <div class="about-form">
+            <!--Finish this text later pls-->
+            <p>
+                Welcome to the form page!<br>If you are here then I would assume you have looked around a bit. Here is where you fill out a form picking what kind of commission you would want. When you have completed the form you and click the 'submit' button you acknowledge all of my terms and conditions for commissioning art from me.<br>please fill out the form to completion and I will usually respond anywhere between 24-36 hours.
+            </p>
+        </div>
+
+        <form>
+            <!--Finish the form text-->
+            <section>
+                <label for="Name">Name</label>
+                <input id="Name" type="text" name="Name" placeholder="Name"><br>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Email"><br><br>
+
+                <label for="commissionType">Commission Type:</label>
+                <select id="commissionType" name="commissionType">
+                    <!--TODO: Add more Commission types-->
+                    <option value="Clean Sketch">Clean Sketch</option>
+                    <option value="Lined">Lined</option>
+                    <option value="Painted">Painted</option>
+                    <option value="Icon">Icon</option>
+                    <option value="ref-sheet">Reference Sheet</option>
+                </select>
+                
+                <div class="colour">
+                    <fieldset>
+                        <legend>Colour Type</legend>
+                        <input type="radio" name="colour" id="no-colour" value="no-colour">
+                        <label for="no-colour">No Colour</label><br>
+                        <input type="radio" name="colour" id="b-w" value="b-w">
+                        <label for="b-w">Black and White</label><br>
+                        <input type="radio" name="colour" id="full-colour" value="full-colour">
+                        <label for="full-colour">Full Colour</label>
+                    </fieldset>
+                </div>
+
+                <div class="shading">
+                    <fieldset>
+                        <!--TODO: Add shading options here-->
+                        <legend>Shading Type: (If Painted, choose no shading)</legend>
+                        <input type="radio" id="no-shading" name="shading-type" value="no-shading">
+                        <label for="no-shading">No Shading</label><br>
+                        <input type="radio" id="simple-shading" name="shading-type" value="simple-shading">
+                        <label for="simple-shading">Simple Shading</label><br>
+                        <input type="radio" id="cell-shading" name="shading-type" value="cell-shading">
+                        <label for="cell-shading">Cell Shading</label>
+                    </fieldset>
+                </div>
+
+                <div class="add-ons">
+                    <fieldset>
+                        <!--TODO: Add more Addons here-->
+                        <legend>Add Ons: (Check all that apply)</legend>
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </fieldset>
+                </div>
+
+                <input type="submit" value="Submit">
+         </section>
+        </form>
+
+    </body>
+
+</html>
